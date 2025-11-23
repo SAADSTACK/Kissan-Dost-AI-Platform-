@@ -2,7 +2,6 @@ import { GoogleGenAI, Modality } from "@google/genai";
 import { KissanResponse } from "../types";
 
 const apiKey = import.meta.env.VITE_GEMINI_API_KEY || '';
-const apiKey = process.env.API_KEY || '';
 
 const ai = new GoogleGenAI({ apiKey });
 
